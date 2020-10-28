@@ -9,6 +9,9 @@ def coinFinder(coinValue, coinName):
         coinCount = coinCount + 1
     print(str(coinName) + ": " + str(coinCount))
 
+# You can modify/delete these function calls 
+# to customise for your available currency
+
 coinFinder(100, "Hundred Dollars")
 coinFinder(50, "Fifty Dollars")
 coinFinder(20, "Twenty Dollars")
